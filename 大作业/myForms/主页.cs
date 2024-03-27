@@ -5,8 +5,7 @@ using 窗体实验;
 using static System.Net.Http.HttpClient;
 using static System.Net.HttpWebRequest;
 
-// 天气API:https://restapi.amap.com/v3/weather/weatherInfo?city=%E6%AD%A6%E6%B1%89&key=0e61a1cc6a00d232e40907be8fe4a298&extensions=all&output=xml
-// 天气API:https://restapi.amap.com/v3/weather/weatherInfo?city=%E6%AD%A6%E6%B1%89&key=0e61a1cc6a00d232e40907be8fe4a298&extensions=all&output=json
+// 天气API:https://restapi.amap.com/v3/weather/weatherInfo?city=%E6%00d232e40907be8fe4a298&extensions=all&output=json
 
 namespace 大作业
 {
@@ -31,7 +30,7 @@ namespace 大作业
         {
             // 使用HttpClient发送GET请求
             HttpClient client = new HttpClient();
-            HttpResponseMessage response = await client.GetAsync("http://119.45.167.20/api/Drug/GetAllDrugsInfo");
+            HttpResponseMessage response = await client.GetAsync("http://xxxx/api/Drug/GetAllDrugsInfo");
             response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();
             // responseBody变量中将包含WebApi的响应数据
