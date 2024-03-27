@@ -273,7 +273,7 @@ namespace Commons
 2. WebAPI的集成：可以考虑如何处理网络异常，如何保护用户的隐私和数据安全，以及如何优化网络请求的性能等问题；
 3. 业务功能的集成：可以补充完善更多的业务，如用户管理的CRUD、药品管理的CRUD等
 
-五、参考资料
-[Asynchronous programming in C# - C# | Microsoft Learn]( [Asynchronous programming in C# - C# | Microsoft Learn](https://learn.microsoft.com/zh-cn/dotnet/csharp/asynchronous-programming/) )
+## 五、参考资料
+- [Asynchronous programming in C# - C# | Microsoft Learn](https://learn.microsoft.com/zh-cn/dotnet/csharp/asynchronous-programming/) 
 
-[开发 | 高德地图API (amap.com)]( [开发 | 高德地图API (amap.com)](https://lbs.amap.com/api) )
+- [开发 | 高德地图API (amap.com)](https://lbs.amap.com/api) 
