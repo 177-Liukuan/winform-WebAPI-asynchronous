@@ -22,7 +22,7 @@
 
 
 
-![1711509688003](C:\Users\27364\AppData\Local\Temp\1711509688003.png)
+![Swagger](https://github.com/177-Liukuan/winform-WebAPI-asynchronous/blob/master/%E5%A4%A7%E4%BD%9C%E4%B8%9A/img/%E5%9B%BE%E7%89%871.png)
 
 
 
@@ -30,7 +30,7 @@
 
 调用从高德开放平台申请的天气API，查询近几日天气。
 
-![1711509698318](C:\Users\27364\AppData\Local\Temp\1711509698318.png)
+![高德开放平台](https://github.com/177-Liukuan/winform-WebAPI-asynchronous/blob/master/%E5%A4%A7%E4%BD%9C%E4%B8%9A/img/%E5%9B%BE%E7%89%872.png)
 
 ### 3.一种实现窗体/控件布局缩放自适应的简洁方法
 
@@ -44,7 +44,7 @@ Gitee地址：https://gitee.com/hu-lizhe/AutoScaleHelper
 
 #### （1）程序控制流图
 
-![1711509661515](C:\Users\27364\AppData\Local\Temp\1711509661515.png)
+![asynchronous](https://github.com/177-Liukuan/winform-WebAPI-asynchronous/blob/master/%E5%A4%A7%E4%BD%9C%E4%B8%9A/img/%E5%9B%BE%E7%89%873.png)
 
 
 
@@ -127,7 +127,7 @@ public async Task<int> CalculateSumAsync(int[] numbers)
 
 ### 2.调用WebApi的架构（根据开发经历设计的）
 
-![sd](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=C#Uhttps%3A%2F%2Fraw.githubusercontent.com%2F177-Liukuan%2FMyPicture%2Fmain%2FC)
+![winform调用API架构](https://github.com/177-Liukuan/winform-WebAPI-asynchronous/blob/master/%E5%A4%A7%E4%BD%9C%E4%B8%9A/img/%E5%9B%BE%E7%89%874.png)
 
 
 
