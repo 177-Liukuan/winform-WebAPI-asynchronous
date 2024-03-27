@@ -54,7 +54,7 @@ namespace 窗体实验
             try
             {
                 // URL
-                string url = "http://119.45.167.20/api/User/GetUserByUserEntity";
+                string url = "API'URL";
 
 
                 // 设置请求头，这里假设服务器期望的是JSON格式的内容
@@ -241,7 +241,7 @@ namespace 窗体实验
         private async Task setGaoDeWeatherAsync()
         {
 
-            HttpResponseMessage response = await clientInstance.GetAsync("https://restapi.amap.com/v3/weather/weatherInfo?city=%E6%AD%A6%E6%B1%89&key=0e61a1cc6a00d232e40907be8fe4a298&extensions=all&output=json");
+            HttpResponseMessage response = await clientInstance.GetAsync("API’S URL");
             response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();
             // responseBody变量中将包含WebApi的响应数据
