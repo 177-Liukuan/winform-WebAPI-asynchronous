@@ -149,7 +149,7 @@ namespace 大作业.myForms
             try
             {
                 //点击注册按钮后，调用API将所有信息录入数据库
-                string URL = "http://119.45.167.20/api/User/AddUser";
+                string URL = "http://xxx.x.xxx.20/api/User/AddUser";
                 //设置请求头，这里假设服务器期望的是JSON格式的内容
                 clientInstance.DefaultRequestHeaders.Accept.Clear();
                 clientInstance.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
